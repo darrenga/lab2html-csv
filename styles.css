@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.charts {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Raleway', sans-serif;
+  color: #B91715;
+  text-shadow: -1px 0 #D7C82C, 0 1px #D7C82C, 1px 0 #D7C82C, 0 -1px #D7C82C;
+  font-size: 45px;
+
+}
+
+h2 {
+  margin: 0 auto;
+  padding-top: 45px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Raleway', sans-serif;
+  color: #B91715;
+  text-shadow: -1px 0 #D7C82C, 0 1px #D7C82C, 1px 0 #D7C82C, 0 -1px #D7C82C;
+  font-size: 65px;
+
+}
+
+ul img {
+  list-style: none;
+  border: 5px solid #D7C82C;
+  border-radius: 75px;
+}
+
+ul  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  color: #B91715;
+  text-shadow: -1px 0 #D7C82C, 0 1px #D7C82C, 1px 0 #D7C82C, 0 -1px #D7C82C;
+  font-size: 20px;
+}
+
+li {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+li i {
+  text-shadow: -1px 0 #B91715, 0 1px #B91715, 1px 0 #B91715, 0 -1px #B91715;
+  color: #00DB6C;
+
+}
+
+table {
+  margin: 20px 0;
+  font-family: 'Raleway', sans-serif;
+  color: #B91715;
+  text-shadow: -1px 0 #D7C82C, 0 1px #D7C82C, 1px 0 #D7C82C, 0 -1px #D7C82C;
+  font-size: 20px;
+  width: 70%;
+  background-image: url(http://i.imgur.com/AZLkulD.png);
+  background-size: cover;
+  background-position: center;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+}
+
+th {
+  text-align: left;
+  padding: 10px;
+}
+
+@media screen and (min-width: 800px) {
+    table {
+        font-size: 28px;
+    }
+    ul {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .charts {
+        flex-direction: row;
+    }
+}
